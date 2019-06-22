@@ -23,7 +23,7 @@ class Board
     end
 
     def update(position, sym)
-        pos[position.to_i - 1] = sym
+        pos[position.to_i - 1] = sym if move_valid? position
     end
 
     def tie?
