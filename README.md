@@ -12,6 +12,15 @@ Tic-tac-toe is a pen and paper game of two players, where each player takes turn
 - If a player marks a complete row, column or diagonal, they win.
 - The game ends in a tie, if there is no space left on the grid, without anyone having won.
 
+## Running the tests
+
+From the project root directory, run
+
+    rspec
+
+or
+
+    rspec --format doc
 
 ## Instructions to run the program
 
